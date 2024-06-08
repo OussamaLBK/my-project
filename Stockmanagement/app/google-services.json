@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "675364826771",
+    "firebase_url": "https://stockmanagement-7ca04-default-rtdb.firebaseio.com",
+    "project_id": "stockmanagement-7ca04",
+    "storage_bucket": "stockmanagement-7ca04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675364826771:android:8ce34b04edd79141dfe766",
+        "android_client_info": {
+          "package_name": "com.example.stockmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3t2TDfkmYn0F53sr3gtcPckTl7bvliG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

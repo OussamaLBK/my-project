@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".ui.construction.ConstructionActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:text="Construction :"
+        android:textColor="#3B84F1"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:backgroundTint="@color/white"
+        android:textColor="#3B84F1"
+        android:padding="18dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:id="@+id/add_btn"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new products"
+        android:backgroundTint="@color/white"
+        android:textColor="#3B84F1"
+        android:padding="18dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:id="@+id/addNew_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show dashboard"
+        android:backgroundTint="@color/white"
+        android:textColor="#3B84F1"
+        android:padding="18dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:id="@+id/dashBoard_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:backgroundTint="@color/white"
+        android:textColor="#3B84F1"
+        android:padding="18dp"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:id="@+id/stock_btn"/>
+
+</LinearLayout>

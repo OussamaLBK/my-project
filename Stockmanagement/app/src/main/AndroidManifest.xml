@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stockmanagement">
+
+    <application
+        android:name=".ui.main.MainApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockManagement"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.main.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.construction.ConstructionActivity" />
+
+        <activity
+            android:name=".ui.construction.AddActivity" />
+        <activity
+            android:name=".ui.construction.StockActivity" />
+
+
+
+        <activity
+            android:name=".ui.construction.AddNew" />
+
+        <activity
+            android:name=".ui.construction.DashActivity" />
+
+        <activity
+            android:name=".ui.lighting.LightingActivity" />
+        <activity
+            android:name=".ui.lighting.AddActivityL" />
+        <activity
+            android:name=".ui.lighting.AddNewL" />
+        <activity
+            android:name=".ui.lighting.StockActivityL" />
+        <activity
+            android:name=".ui.lighting.DashActivityL" />
+
+
+
+        <activity
+            android:name=".ui.painting.PaintingActivity" />
+
+        <activity
+            android:name=".ui.painting.StockActivityP" />
+        <activity
+            android:name=".ui.painting.DashActivityP" />
+        <activity
+            android:name=".ui.painting.AddActivityP" />
+        <activity
+            android:name=".ui.painting.AddNewP" />
+
+        <activity
+            android:name=".ui.plaque.AddActivityPl" />
+        <activity
+            android:name=".ui.plaque.AddNewPl" />
+        <activity
+            android:name=".ui.plaque.PlaqueActivity" />
+        <activity
+            android:name=".ui.plaque.StockActivityPl" />
+        <activity
+            android:name=".ui.plaque.DashActivityPl" />
+
+        <activity
+            android:name=".ui.waterpoint.AddActivityWp" />
+        <activity
+            android:name=".ui.waterpoint.AddNewWp" />
+        <activity
+            android:name=".ui.waterpoint.DashActivityWp" />
+        <activity
+            android:name=".ui.waterpoint.StockActivityWp" />
+        <activity
+            android:name=".ui.waterpoint.WaterPointActivity" />
+        <activity
+            android:name=".ui.wood.DashActivityW" />
+        <activity
+            android:name=".ui.wood.AddActivityW" />
+        <activity
+            android:name=".ui.wood.AddNewW" />
+        <activity
+            android:name=".ui.wood.StockActivityW" />
+        <activity
+            android:name=".ui.wood.WoodActivity" />
+
+
+
+
+
+
+    </application>
+
+</manifest>

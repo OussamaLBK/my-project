@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83609914046",
+    "project_id": "gestion-de-stock-7be9a",
+    "storage_bucket": "gestion-de-stock-7be9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83609914046:android:de8dd902ac6dec52fc6cef",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxF4PtsxePuotCSi2vF5odLYqOVWKLuqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
